@@ -1,5 +1,10 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Premier programme PHP !</title>
+<body>
 <?php
-echo "Hello world!" ."<br><br>";
+echo "<strong>Hello world!</strong>" ."<br><br>";
 
 //exercice 1 ------------------------------------
 echo "*- exercice 1 <br><br>";
@@ -62,7 +67,7 @@ echo "*- exercice 5 <br><br>";
 $budget = 1553.89;
 $achats = 1554.76;
 
-    if ($budget < $achats){
+    if ($budget >= $achats){
     echo 'je ne peut pas acheter les courses';
 }
     else {
@@ -131,12 +136,102 @@ for($i=0; $i<=10; $i++)
 //exercice 9 --------------------------------------
 echo "*- exercice 9 <br><br>";
 
-$html = '';
-$k = 0;
+   $note = 0;
+   while($note <= 20) {
+   if($note == 10) {
+  echo '<strong>'.$note.'</strong>';	  
+      } 
+   else {
+         echo  $note;    
+          }
+      echo ' <br />';
+      $note = $note + 2;
+   }
+?> <br>
+<?php
+//exercice 10 --------------------------------------
+echo "*- exercice 10 <br><br>";
 
-while($k <= 20) {
-   html = html + $k + '<br/>';
-   $k = $k + 2;
+$tableau = array(
+    'France' => 'Paris',
+    'Allemagne' => 'Berlin',
+    'Italie' => 'Rome'
+ );
+ foreach($tableau as $t) {
+    echo $t.' ';	   
+ }
+?>
+<br/><br/>
+<?php
+//exercice 11 --------------------------------------
+echo "*- exercice 11 <br><br>";
+
+$table = array();
+$tableau1 = array();
+$tableau2 = array();
+$i = 0;
+while($i < 10) {
+   $table[] = rand(0, 50);
+   $i++;	  
+}
+foreach($table as $t) {
+   if($t < 50) {
+      $tableau1[] = $t;
+   } else {
+      $tableau2[] = $t;		  
+   }
+}
+
+echo 'Tableau 1 : ';
+foreach($tableau1 as $t1) {
+   echo $t1.' ';
+}
+
+echo '<br />Tableau 2 : ';
+foreach($tableau2 as $t2) {
+   echo $t2.' ';
 }
 ?>
-document.body.innerHTML = html;
+<br><br>
+<?php
+//exercice 12 --------------------------------------
+echo "*- exercice 12<br><br>";
+
+$pays_population = array(
+    'France' => 67595000,
+    'Suede' => 9998000,
+    'Suisse' => 8417000,
+    'Kosovo' => 1820631,
+    'Malte' => 434403,
+    'Mexique' => 122273500,
+    'Allemagne' => 82800000,
+ );
+ echo '<p>Les pays suivants ont une population supérieure à 20 millions d\'habitants.</p><ul>';
+ foreach($pays_population as $pays => $population) {
+    if($population >= 20000000) {
+       echo '<li>'.$pays.'</li>';
+    }
+ }
+ echo '</ul>';
+?><br><br>
+
+<?php
+//exercice 13 --------------------------------------
+echo "*- exercice 13<br><br>";
+$cocktails = array('Mojito', 'Long Island
+Iced Tea', 'Gin Fizz', 'Moscow mule');{
+echo "le résultat est .$cocktails[1].";
+}
+?><br>
+
+<?php
+//exercice 14 --------------------------------------
+echo "*- exercice 14<br><br>";
+
+
+
+
+
+
+
+
