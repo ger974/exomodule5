@@ -230,8 +230,25 @@ echo "*- exercice 14<br><br>";
 
 
 
+?>
+<br><br>
 
+<?php
+//exercice 15 --------------------------------------
+echo "*- exercice 15<br><br>";
+//Exemple : argument 1 = Antoine Argument 2 = Griezmann;
+// Resultat : AntoineGriezmann
+$argument1 = "Antoine";
+$argument2 = "Griezmann";
 
+echo "je m'appelle $argument1 $argument2.";
+?>
+<br><br>
+<?php
+//exercice 16 --------------------------------------
+echo "*- exercice 16<br><br>";
+
+?>
 
 
 
