@@ -37,7 +37,7 @@ echo 'Le prix TTC du produit est de
 echo "*- exercice 3 <br><br>";
 
 $test = 42;
-var_dump ("Le visiteur à '$test' ans.");
+var_dump ("$test");
 
 ?>
 <br><br>
@@ -227,8 +227,10 @@ echo "le résultat est .$cocktails[1].";
 <?php
 //exercice 14 --------------------------------------
 echo "*- exercice 14<br><br>";
-
-
+$Arg1 = "abc"; //==> Return abc
+$Arg2 = 123; //==> Return 123
+echo "$Arg1 <br>";
+echo "$Arg2 <br>";
 
 ?>
 <br><br>
@@ -245,10 +247,58 @@ echo "je m'appelle $argument1 $argument2.";
 ?>
 <br><br>
 <?php
+
 //exercice 16 --------------------------------------
 echo "*- exercice 16<br><br>";
+// Fonction addition
+$argumentA = 5;
+$argumentB = 5;
+$Result = ($argumentA + $argumentB);
+
+echo "Le résultat est: $Result";
+?><br><br>
+<?php
+//exercice 17 --------------------------------------
+echo "*- exercice 17<br><br>";
+// fonction soustraction
+$argumentA = 5;
+$argumentB = 5;
+$Result = ($argumentA - $argumentB);
+
+echo "Le résultat est: $Result";
+
+?><br><br>
+<?php
+//exercice 18 --------------------------------------
+echo "*- exercice 18<br><br>";
+// fonction Multiplication
+$argumentA = 5;
+$argumentB = 5;
+$Result = ($argumentA * $argumentB);
+
+echo "Le résultat est: $Result";
 
 ?>
+?><br><br>
+<?php
+//exercice 19 --------------------------------------
+echo "*- exercice 19<br><br>";
+// fonction de Division
+$argumentA = 5;
+$argumentB = 5;
+$Result = ($argumentA / $argumentB);
 
+echo "Le résultat est: $Result";
 
+?>
+<?php
+//exercice 19 --------------------------------------
+echo "*- exercice 19<br><br>";
+// fonction de Division
+$argumentA = 5;
+$argumentB = 5;
+$Result = ($argumentA / $argumentB);
 
+echo "Le résultat est: $Result";
+
+?>
