@@ -6,7 +6,7 @@
 <?php
 echo "<strong>Hello world!</strong>" ."<br><br>";
 
-//exercice 1 ------------------------------------
+//exercice 1 
 echo "<strong*- exercice 1 <br><br></strong>";
 $note_maths = 15;
 $note_francais = 12;
@@ -19,7 +19,7 @@ echo 'La moyenne est de '.$moyenne.' / 20. ';
 <br><br>
 
 <?php
-// exercice 2 ------------------------------------
+// exercice 2 
 echo "<strong>*- exercice 2 <br><br></strong>";
 $prix_ht = 50;
 $tva = 20;
@@ -33,7 +33,7 @@ echo 'Le prix TTC du produit est de
 ?>
 <br/>
 <?php
-//exercice 3 --------------------------------------
+//exercice 3 
 echo "<strong>*- exercice 3 <br><br></strong>";
 
 $test = 42;
@@ -43,7 +43,7 @@ var_dump ("$test");
 <br><br>
 
 <?php
-//exercice 4 --------------------------------------
+//exercice 4 
 echo "<strong>*- exercice 4 <br><br></strong>";
 
 $sexe = "18";
@@ -61,7 +61,7 @@ $sexe = "18";
 ?>
 <br><br>
 <?php
-//exercice 5 --------------------------------------
+//exercice 5 
 echo "<strong>*- exercice 5 <br><br></strong>";
 
 $budget = 1553.89;
@@ -76,7 +76,7 @@ $achats = 1554.76;
 ?>
 <br><br>
 <?php
-//exercice 6 --------------------------------------
+//exercice 6 
 echo "<strong>*- exercice 6 <br><br></strong>";
 
 $age = 15;
@@ -107,7 +107,7 @@ $age = 15;
 <br>
 
 <?php
-//exercice 7 --------------------------------------
+//exercice 7 
 echo "<strong>*- exercice 7 <br><br></strong>";
 $heure = 20;
 if($heure > 0 && $heure < 12){
@@ -122,7 +122,7 @@ elseif ($heure > 19 && $heure < 24){
 ?>
 <br><br>
 <?php
-//exercice 8 --------------------------------------
+//exercice 8 
 echo "<strong>*- exercice 8 <br><br></strong>";
 // Boucle générant la table de multiplication du 5
 for($i=0; $i<=10; $i++)
@@ -133,7 +133,7 @@ for($i=0; $i<=10; $i++)
 <br><br>
 
 <?php
-//exercice 9 --------------------------------------
+//exercice 9 
 echo "<strong>*- exercice 9 <br><br></strong>";
 
    $note = 0;
@@ -149,7 +149,7 @@ echo "<strong>*- exercice 9 <br><br></strong>";
    }
 ?> <br>
 <?php
-//exercice 10 --------------------------------------
+//exercice 10 
 echo "<strong>*- exercice 10 <br><br></strong>";
 
 $tableau = array(
@@ -163,7 +163,7 @@ $tableau = array(
 ?>
 <br/><br/>
 <?php
-//exercice 11 --------------------------------------
+//exercice 11 
 echo "<strong>*- exercice 11 <br><br></strong>";
 
 $table = array();
@@ -194,7 +194,7 @@ foreach($tableau2 as $t2) {
 ?>
 <br><br>
 <?php
-//exercice 12 --------------------------------------
+//exercice 12 
 echo "<strong>*- exercice 12<br><br></strong>";
 
 $pays_population = array(
@@ -216,17 +216,30 @@ $pays_population = array(
 ?><br><br>
 
 <?php
-//exercice 13 --------------------------------------
+//exercice 13 
 echo "<strong>*- exercice 13<br><br></strong>";
 $cocktails = array('Mojito', 'Long Island
 Iced Tea', 'Gin Fizz', 'Moscow mule');{
 echo "le résultat est: $cocktails[1].";
 }
-?><br>
+?>
+<br><br>
 
 <?php
-//exercice 14 --------------------------------------
+//exercice 14 
 echo "<strong>*- exercice 14<br><br></strong>";
+function HelloWorld(){
+    $string = 'Hello World!';
+    
+    return $string;  
+}
+var_dump(HelloWorld());
+
+?>
+<br><br>
+<?php
+//exercice 15 
+echo "<strong>*- exercice 15<br><br></strong>";
 $Arg1 = "abc"; //==> Return abc
 $Arg2 = 123; //==> Return 123
 echo "$Arg1 <br>";
@@ -237,8 +250,8 @@ echo "$Arg2 <br>";
 <br><br>
 
 <?php
-//exercice 15 --------------------------------------
-echo "<strong>*- exercice 15<br><br></strong></strong>";
+//exercice 16 
+echo "<strong>*- exercice 16<br><br></strong></strong>";
 //Exemple : argument 1 = Antoine Argument 2 = Griezmann;
 // Resultat : AntoineGriezmann
 $argument1 = "Antoine";
@@ -249,8 +262,8 @@ echo "je m'appelle $argument1 $argument2.";
 <br><br>
 <?php
 
-//exercice 16 --------------------------------------
-echo "<strong>*- exercice 16<br><br></strong>";
+//exercice 17 
+echo "<strong>*- exercice 17<br><br></strong>";
 // Fonction addition
 $argumentA = 5;
 $argumentB = 5;
@@ -259,8 +272,8 @@ $Result = ($argumentA + $argumentB);
 echo "Le résultat est: $Result";
 ?><br><br>
 <?php
-//exercice 17 --------------------------------------
-echo "<strong>*- exercice 17<br><br></strong>";
+//exercice 18
+echo "<strong>*- exercice 18<br><br></strong>";
 // fonction soustraction
 $argumentA = 5;
 $argumentB = 5;
@@ -270,8 +283,8 @@ echo "Le résultat est: $Result";
 
 ?><br><br>
 <?php
-//exercice 18 --------------------------------------
-echo "<strong>*- exercice 18<br><br></strong>";
+//exercice 19
+echo "<strong>*- exercice 19<br><br></strong>";
 // fonction Multiplication
 $argumentA = 5;
 $argumentB = 5;
@@ -282,8 +295,8 @@ echo "Le résultat est: $Result";
 ?>
 <br><br>
 <?php
-//exercice 19 --------------------------------------
-echo "<strong>*- exercice 19<br><br></strong>";
+//exercice 20
+echo "<strong>*- exercice 20<br><br></strong>";
 // fonction de Division
 $argumentA = 5;
 $argumentB = 5;
@@ -295,29 +308,29 @@ echo "Le résultat est: $Result";
 <br><br>
 
 <?php
-//exercice 20 --------------------------------------
-echo "<strong>*- exercice 20<br><br></strong>";
-function estIlMajeure($age, $newage1){
+//exercice 21 
+echo "<strong>*- exercice 21<br><br></strong>";
+function estIlMajeure($age, $age1){
 $age = TRUE;
-$age1 = 2;
+$age1 = 20;
 
- if ($age1 > 18){
-    return $age;
+ if ($age1 >= 18){
+    return (TRUE);
   
- }
+}
   else{
        return (FALSE);
 }
 }
-var_dump (estIlMajeure($age, $age1));
+var_dump (estIlMajeure($age,$age1));
  
       
 ?>
 <br><br>
 
 <?php
-//exercice 21 --------------------------------------
-echo "<strong>*- exercice 21<br><br></strong>";
+//exercice 22 
+echo "<strong>*- exercice 22<br><br></strong>";
 function premierElementTableau(){
     $tableau = array('pierre', 'paul', 'Jacque', 'Emeline');
     return var_dump($tableau[0]);
@@ -328,8 +341,8 @@ function premierElementTableau(){
 <br><br>
 
 <?php
-//exercice 22 --------------------------------------
-echo "<strong>*- exercice 22<br><br></strong>";
+//exercice 23
+echo "<strong>*- exercice 23<br><br></strong>";
 function plusGrand(){
 $nombre = array(10, 20, 30, 40, 50, 60, 70, 100, 500);
 
@@ -344,8 +357,8 @@ while($nombre > 50){
 <br><br>
 
 <?php
-//exercice 23 --------------------------------------
-echo "<strong>*- exercice 23<br><br></strong>";
+//exercice 24
+echo "<strong>*- exercice 24<br><br></strong>";
 
 function verificationPassword($password){
     $password = TRUE;
@@ -364,8 +377,8 @@ return $password;
 <br><br>
 
 <?php
-//exercice 24 --------------------------------------
-echo "<strong>*- exercice 24<br><br></strong>";
+//exercice 25 - verificationPassword()
+echo "<strong>*- exercice 25<br><br></strong>";
 
    $passw01 = "12Gerard";
    $hashp02 = "12Gerard";
@@ -375,10 +388,10 @@ echo "<strong>*- exercice 24<br><br></strong>";
    if($test02 == TRUE) {
       echo "VALID password for the informed HASH!<br>"; 
       var_dump($test02);
-   } else {
+ } else {
       echo "INVALID password for the informed HASH!<br>";     
       var_dump($test02);    
-   }
+}
 ?>
 <?php
     function pwdVerify($pwd, $hashAndSalt)
@@ -389,4 +402,95 @@ echo "<strong>*- exercice 24<br><br></strong>";
      return false;
  }
  ?>
- 
+ <br><br>
+
+ <?php
+ //exercice 26 Fonction capitale()
+ echo "<strong>*- exercice 26<br><br></strong>";
+
+function capitale(){
+$pays = 'France';
+ switch ($pays){
+
+    case 0 :'France';
+    return 'paris';
+    break;
+    case 1:'Allemagne';
+    return 'Berlin';
+    break;
+    case 2:'Italie';
+     return 'Rome';
+     break;
+    case 3:'Maroc';
+     return 'Rabat';
+    break;
+    case 4:'Espagne';
+    return 'Madrid';
+    break;
+    case 5:'Portugal';
+    return 'Lisbonne';
+    break;
+    case 6:'Angleterre';
+    return 'Londre';
+    break;
+    default:
+    return 'Inconnue';
+    break;
+}
+}
+
+var_dump(capitale());
+
+?>
+
+<br><br>
+<?php
+//exercice 27 capital()
+ echo "<strong>*- exercice 27<br><br></strong>";
+
+ function listhtml(){
+ $list = ['Gérard', 'johnny', 'Alexandre', 'Franck', 'Enzo', 'chuck', 'norris'];
+ $c = 0;
+ $LIMIT = 3;
+ echo "<ul>"; 
+ foreach($list as $current) {
+     echo "<li>$current</li>";
+     $c += 1;
+     if($c == $LIMIT) {
+    echo "</ul><ul> <br><br>";
+    } 
+  }
+}
+ echo listhtml();
+ ?>
+
+<br><br>
+<?php
+//exercice 28 replace
+ echo "<strong>*- exercice 28<br><br></strong>";
+function remplacerLesLettres($replace){
+    $replace = strtr($replace, 'e,i,o', '3,1,0');
+return $replace;
+
+}
+echo remplacerLesLettres("Bonjour les amis. Les cours de programmation Web sont trops cools.");
+
+
+ ?>
+ <br><br>
+<?php
+//exercice 29 capital()
+ echo "<strong>*- exercice 29<br><br></strong>";
+
+// Enregistrons les informations de date dans des variables
+    function quelleDate(){
+        date_default_timezone_set('Indian/Reunion'); 
+        $date = setlocale(LC_ALL, 'fr_FR.UTF8', 'fr_FR','fr','fr','fra','fr_FR@euro');
+     
+    return strftime('%I:%M:%S'). '<br>';
+
+}
+  echo quelleDate()
+
+
+?>
